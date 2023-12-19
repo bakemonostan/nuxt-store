@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     head: {
       title: "Nuxt Dojo",
       meta: [{ name: "description", content: "Everything about Nuxt 3" }],
+      script: [{ children: 'console.log("test3");' }],
       link: [
         {
           rel: "stylesheet",
